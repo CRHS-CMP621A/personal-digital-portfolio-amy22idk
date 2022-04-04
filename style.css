@@ -1,3 +1,4 @@
+/*Top Naviagtion*/
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -23,6 +24,23 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: crimson;
   color: white;
+}
+
+/*CSS Grid*/
+.info1 {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 155px 250px 155px;
+  grid-template-rows: 200px 100px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info2 {
+  padding: 25px;
+  display: grid;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
 }
