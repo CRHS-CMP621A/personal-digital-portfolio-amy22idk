@@ -1,9 +1,14 @@
-/*Top Naviagtion*/
+/*Name: Amy
+Website: About Me
+Class:CMP621A */
+
+/*Website Design*/
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Top Naviagtion*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -29,26 +34,58 @@ body {
 }
 
 /*CSS Grid*/
-.intro {
-  display: flex;
-  margin-top: 16px;
-  justify-content: space-between;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
   gap: 30px;
 }
-.intro {
-  flex: 1;
+h4 {
+  text-align: center;
+}
+.el-1 {
+  background-color: lawngreen;
+  padding: 20px;
 }
 
-.main {
-  flex: 2;
+.el-2 {
+  background-color: lightcoral;
+  padding: 20px;
 }
 
-/*Social Media connections*/
+.el-3 {
+  background-color: mediumpurple;
+  padding: 20px;
+}
+
+.el-4 {
+  background-color: mediumseagreen;
+  padding: 20px;
+}
+
+.el-5 {
+  background-color: mediumvioletred;
+  padding: 20px;
+}
+
+.el-6 {
+  background-color: orange;
+  padding: 20px;
+}
+
+/*Footer*/
 .footer {
   background-color: lightgray;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 .fa:hover {
   opacity: 0.7;
