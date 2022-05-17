@@ -6,6 +6,9 @@ Class:CMP621A */
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://toppng.com/uploads/preview/dark-textured-background-11553990978fvcuuuilzv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Top Naviagtion*/
