@@ -6,20 +6,20 @@ Class:CMP621A */
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url("https://toppng.com/uploads/preview/dark-textured-background-11553990978fvcuuuilzv.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ffe8e1;
 }
 
 /*Top Naviagtion*/
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #905d5d;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #bdf7b7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -32,8 +32,8 @@ body {
 }
 
 .topnav a.active {
-  background-color: crimson;
-  color: white;
+  background-color: #ddaaaa;
+  color: #bdf7b7;
 }
 
 /*CSS Grid*/
