@@ -19,7 +19,7 @@ body {
 
 .topnav a {
   float: left;
-  color: #bdf7b7;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -33,7 +33,7 @@ body {
 
 .topnav a.active {
   background-color: #ddaaaa;
-  color: #bdf7b7;
+  color: white;
 }
 
 /*CSS Grid*/
@@ -55,7 +55,7 @@ h4 {
   text-align: center;
 }
 .el-1 {
-  background-color: lawngreen;
+  background-color: #905d5d;
   padding: 20px;
 }
 
@@ -65,22 +65,22 @@ h4 {
 }
 
 .el-3 {
-  background-color: mediumpurple;
+  background-color: #905d5d;
   padding: 20px;
 }
 
 .el-4 {
-  background-color: mediumseagreen;
+  background-color: lightcoral;
   padding: 20px;
 }
 
 .el-5 {
-  background-color: mediumvioletred;
+  background-color: #905d5d;
   padding: 20px;
 }
 
 .el-6 {
-  background-color: orange;
+  background-color: lightcoral;
   padding: 20px;
 }
 
