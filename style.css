@@ -44,12 +44,19 @@ body {
   grid-template-rows: 1fr 1fr;
   gap: 50px;
 }
+
+.hobbies {
+  font-size: 20px;
+  color: #9c626a;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   text-align: center;
   gap: 30px;
+  color: white;
 }
 h4 {
   text-align: center;
@@ -57,31 +64,43 @@ h4 {
 .el-1 {
   background-color: #db5461;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #801b23 2px;
 }
 
 .el-2 {
   background-color: lightcoral;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #f96060 2px;
 }
 
 .el-3 {
   background-color: #db5461;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #801b23 2px;
 }
 
 .el-4 {
   background-color: lightcoral;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #f96060 2px;
 }
 
 .el-5 {
   background-color: #db5461;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #801b23 2px;
 }
 
 .el-6 {
   background-color: lightcoral;
   padding: 20px;
+  margin-bottom: 20px;
+  border: solid #f96060 2px;
 }
 /*back to top*/
 .back2top {
