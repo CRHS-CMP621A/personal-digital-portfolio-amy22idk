@@ -7,14 +7,12 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Title -->
-    <title>About Me</title>
+    <title>Amy A</title>
   </header>
-
 <body>
 <!--Nav Bar-->
-    <nav class="topnav">
-      <a class="active" href="home2.html">More Info</a>
-      <a href="#news">News</a>
+    <nav class="topnav" id = "bck2top"> <!--had to add an id as well for the back to top href-->
+      <a href="#uni">Upper Education</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
     </nav>
@@ -22,41 +20,73 @@
 
 <div class="container">
 <!--info1-->
-    <intro class="intro">
-      <h3>Introduction</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+    <intro id = "info">
+      <div class = "abt_me">
+      <h3>About</h3>
+      <p>This website contains some information about me such as hobbies, 
+        interests, future plans and more. A little introduction about me: My name is Amy,
+        I am currently 17 and my birthday is on July 22nd. </p>
+    </div>
+      <div class = "edu">
+      <h3>Education</h3>
+      <p>I am currently a Grade 12 student at Charlottetown Rural High School, In the province of Prince Edward Island. 
+        This provinces' high schools are diverse from other provinces and countries as it begins in Grade 10, while others start with 
+        Grade 9.
+      </p>
+      <!--img 1 tag and caption-->
+      <figure>
+      <img src= "CRHS.jpg" width= "250px" height = "100px" class = "eduImg">
+      <figcaption> CRHS, Charlottetown PEI, Canada.</figcaption>
+      </figure>
+    </div>
+    <br>
+      <div class = "uni">
+      <h3>Upper Education</h3>
+      <p> After graduating this summer, I plan to go to the University of Waterloo, in Ontario. 
+        I will be studying Psychology Bachelor of Arts, as it is a broad subject as well as one of my best interests. 
+        However, I am still unsure of a future occupation. The coop program I have signed up for may help me get work experience and a feel of what I'd like to do. 
+        Then from there I hope to find a job I am passionate for.
+      </p>
+      <figure>
+        <img src= "uw.jpg" width= "350px" height = "200px" class = "eduImg2">
+        <figcaption> UW, Waterloo Ontario, Canada.</figcaption> 
+      </figure>
+    </div>
+      <br>
     </intro>
 
 <!--info2-->
-  <main class="hobbies">
-    <h4>My Hobbies</h4>
+  <main class="hobbies"><br>
+    
+    <br><h4>My Hobbies</h4>
     <ul>
-      <li class="el-1">Drawing</li>
-      <li class="el-2">Reading</li>
-      <li class="el-3">Story Writing</li>
-      <li class="el-4">Playing Tennis</li>
-      <li class="el-5">Baking</li>
-      <li class="el-6">Learning a New Language</li>
+      <li class="hobby-1">Drawing <img src="draw.jpg" width= "200" height="100" class="draw_img"> </li><br>
+      <li class="hobby-2">Reading <img src="read.jpg" width= "200" height="100" class="read_img"></li><br>
+      <li class="hobby-3">Story Writing <img src="writing.png" width= "200" height="100" class="write_img"></li><br>
+      <li class="hobby-4">Playing Tennis <img src="tennis.jfif" width= "200" height="100" class="tennis_img"></li><br>
+      <li class="hobby-5">Baking <img src="baking.webp" width= "200" height="100" class="bake_img"></li><br>
+      <li class="hobby-6">Learning a New Language <img src="learning.png" width= "200" height="100" class="learn_img"></li><br>
     </ul>
   </main> 
 
 
 <!--info3-->
 <article class="article">
-  <h3>Idk...</h3>
+  <h3>Extracurriculars</h3>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
 </article>
 </div>
 
-<button href="home.html" class= "back2top">Back to Top</button>
+<a href="#bck2top" class= "back2top">Back to Top</a>
 
-<footer class="footer">
+<footer class="footer" id="contact">
   <b>Contact Me:</b>
   <a href="mailto:imah1785@gmail.com">Gmail</a>
-  <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-  <a href="https://twitter.com " class="fa fa-twitter"></a>
-  <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-  <a href="https://ca.linkedin.com/" class="fa fa-linkedin"></a>
+  <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
+  <a href="https://twitter.com " class="fa fa-twitter" target="_blank"></a>
+  <a href="https://www.instagram.com" class="fa fa-instagram" target ="_blank"></a>
+  <a href="https://ca.linkedin.com/" class="fa fa-linkedin" target = "_blank"></a>
 </footer>
+<script src="home.js"></script>
 </body>
 </html>
