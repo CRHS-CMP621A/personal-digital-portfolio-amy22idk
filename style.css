@@ -43,7 +43,7 @@ body {
 }
 
 /*introduction  para 1*/
-.abt_me {
+#abt_me {
   color: #fa7162;
   background-color: #fed7c3;
   padding: 8px;
