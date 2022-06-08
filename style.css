@@ -1,0 +1,275 @@
+/*Name: Amy
+Website: About Me
+Class:CMP621A */
+
+/*Website Design*/
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffe8e1;
+}
+
+/*Top Naviagtion*/
+.topnav {
+  overflow: hidden;
+  background-color: #905d5d;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddaaaa;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #ddaaaa;
+  color: white;
+}
+
+/*CSS Grid*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 50px;
+}
+
+/*introduction  para 1*/
+#abt_me {
+  color: #fa7162;
+  background-color: #fed7c3;
+  padding: 8px;
+}
+.abtmeImg {
+  justify-content: center;
+  border: none;
+}
+/*Extra Curricular Para*/
+.extraCurr {
+  color: #de3163;
+  background-color: #fba0b5;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+}
+
+/*Hobby category*/
+.hobbies {
+  font-size: 20px;
+  color: #9c626a;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  gap: 30px;
+  color: white;
+}
+
+.edu {
+  color: crimson;
+  background-color: #ffc5b4;
+  padding: 9px;
+}
+figure {
+  font-size: 13px;
+  color: darkred;
+}
+#uni {
+  background-color: rgb(240, 180, 160);
+  color: rgb(143, 0, 67);
+  padding: 9px;
+}
+img {
+  border: 3px solid #ff968a;
+}
+
+h4 {
+  text-align: center;
+}
+.hobby-1 {
+  background-color: #ffaea5;
+  padding: 20px;
+  margin-bottom: 78px;
+  border: solid #ff968a 2px;
+  position: relative;
+  color: #db5461;
+}
+
+.draw_img {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hobby-1:hover .draw_img {
+  display: block;
+}
+
+.hobby-2 {
+  background-color: lightcoral;
+  padding: 20px;
+  margin-bottom: 78px;
+  border: solid #f96060 2px;
+  position: relative;
+}
+
+.read_img {
+  display: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  right: 55px;
+  left: 50px;
+}
+.hobby-2:hover .read_img {
+  display: block;
+}
+
+.hobby-3 {
+  background-color: #ffaea5;
+  padding: 20px;
+  margin-bottom: 78px;
+  border: solid #ff968a 2px;
+  position: relative;
+  color: #db5461;
+}
+.hobby-3:hover .write_img {
+  display: block;
+}
+.write_img {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  right: 55px;
+  left: 50px;
+}
+
+.hobby-4 {
+  background-color: lightcoral;
+  padding: 20px;
+  margin-bottom: 78px;
+  border: solid #f96060 2px;
+  position: relative;
+}
+.hobby-4:hover .tennis_img {
+  display: block;
+}
+.tennis_img {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  right: 90px;
+}
+
+.hobby-5 {
+  background-color: #ffaea5;
+  padding: 20px;
+  margin-bottom: 78px;
+  border: solid #ff968a 2px;
+  position: relative;
+  color: #db5461;
+}
+.hobby-5:hover .bake_img {
+  display: block;
+}
+.bake_img {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  right: 55px;
+  left: 50px;
+}
+
+.hobby-6 {
+  background-color: lightcoral;
+  padding: 20px;
+  margin-bottom: 55px;
+  border: solid #f96060 2px;
+  position: relative;
+}
+.hobby-6:hover .learn_img {
+  display: block;
+}
+.learn_img {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  top: 60px;
+  right: 55px;
+  left: 50px;
+}
+
+/*back to top*/
+.back2top {
+  color: crimson;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*Footer*/
+.footer {
+  background-color: #ffd5c8;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #bc2a8d;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
